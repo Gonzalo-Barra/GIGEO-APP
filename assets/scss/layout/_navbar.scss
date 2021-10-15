@@ -1,0 +1,42 @@
+.navbar{
+    height:  100px;
+    display: flex;
+    align-items: center;
+
+    &__logo{
+        display: flex;
+        padding-left: 30px;
+
+        &__text{
+            font-size: $font-size-xxx-large;
+            font-weight: bold;
+        }
+    }
+
+    &__icons{
+        
+        a{
+            color: $swamp;
+            display: none;
+            padding: 0 20px;
+        }
+    }
+
+
+    &__bars{
+
+        padding: 0 20px;
+    }
+}
+
+@include respond-to($bp-lg-laptop){
+
+    .navbar{
+        &__icons{
+            a{
+                display: initial;
+                padding: 0 15px;
+            }
+        }
+    }
+}

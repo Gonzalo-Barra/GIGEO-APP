@@ -1,0 +1,30 @@
+/*
+Para compilar el manifiesto desde la raiz de tu proyecto, abre el terminal 
+verifica que este en la raiz de tu proyecto con el comando 'ls' deberias ver
+assets index.html 
+->luego de verificar colocaremos el comando 
+sass --watch assets/scss/main.scss:assets/css/style.css 
+*/;
+//ABSTRACTS
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+
+//VENDOR
+@import "vendor/bootstrap4.5/bootstrap";
+
+//BASE
+@import "base/reset";
+
+//COMPONENTS
+@import "components/button";
+
+
+
+//PAGES
+@import "layout/navbar";
+@import "layout/hero-section";
+@import "layout/header";
+@import "layout/main";
+
+

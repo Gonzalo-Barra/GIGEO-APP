@@ -1,0 +1,14 @@
+.hero-section{
+    &__banner{
+    background-image:url('../img/image-banner.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:110%;
+    width: 100%;
+
+    @include respond-to($bp-lg-laptop){
+        height: 300px;
+    }
+}
+}

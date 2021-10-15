@@ -1,0 +1,23 @@
+.main{
+    &__title{
+        justify-content: flex-start;
+        h2{
+            font-size: $font-size-xx-large;
+        }
+    }
+
+    &__preview{
+        margin-bottom:10px;
+    }
+
+    &__name{
+        font-size: $font-size-x-large;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    &__views{
+        color:$gray;
+    }
+
+}
